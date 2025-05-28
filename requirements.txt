@@ -1,0 +1,2 @@
+# requirements.txt
+# No dependencies needed for this example
