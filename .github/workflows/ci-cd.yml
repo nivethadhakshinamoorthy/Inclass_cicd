@@ -26,3 +26,7 @@ jobs:
 
     - name: Deploy (simulated)
       run: echo "Deploying application..."
+      
+     - name: Use secret API_KEY
+      run: echo "Using API_KEY = ${{ secrets.API_KEY }}"
+
